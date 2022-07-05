@@ -1,0 +1,9 @@
+from Dados import leiaInteiro
+from Dados import leiaFloat
+
+numInt = leiaInteiro('Digite um Número Inteiro: ')
+numReal = leiaFloat('Digite um Número Real: ')
+
+print('=' * 50)
+print(f'O Número Inteiro é {(numInt)} e o Número Real é {(numReal)}.')
+print(('=' * 50))
